@@ -1,0 +1,29 @@
+.card-item{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+    &__image{
+        img{
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+        }
+    }
+    &-heart{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        .icon{
+            font-size: 30px;
+            color: white;
+            z-index: 2;
+        }
+        &:hover{
+            .icon{
+                color: #D7B46B;
+            }
+        }
+    }
+}
