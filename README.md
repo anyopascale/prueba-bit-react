@@ -1,2 +1,2 @@
 # prueba-bit-react
-prueba y estudio React - bot
+prueba y estudio React - bbt
